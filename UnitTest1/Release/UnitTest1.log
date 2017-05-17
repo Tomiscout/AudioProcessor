@@ -1,0 +1,20 @@
+﻿Build started 4/19/2017 5:26:19 PM.
+     1>Project "C:\Users\Princas\documents\visual studio 2013\Projects\AudioProcessor\UnitTest1\UnitTest1.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\UnitTest1.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\UnitTest1.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt unittest1.cpp
+         unittest1.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Princas\documents\visual studio 2013\Projects\AudioProcessor\Release\UnitTest1.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Princas\documents\visual studio 2013\Projects\AudioProcessor\Release\UnitTest1.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Princas\documents\visual studio 2013\Projects\AudioProcessor\Release\UnitTest1.lib" /MACHINE:X86 /SAFESEH /DLL Release\stdafx.obj
+         Release\unittest1.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+            Creating library C:\Users\Princas\documents\visual studio 2013\Projects\AudioProcessor\Release\UnitTest1.lib and object C:\Users\Princas\documents\visual studio 2013\Projects\AudioProcessor\Release\UnitTest1.exp
+         Generating code
+         Finished generating code
+         UnitTest1.vcxproj -> C:\Users\Princas\documents\visual studio 2013\Projects\AudioProcessor\Release\UnitTest1.dll
+     1>Done Building Project "C:\Users\Princas\documents\visual studio 2013\Projects\AudioProcessor\UnitTest1\UnitTest1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.77

@@ -1,0 +1,51 @@
+﻿Build started 5/14/2017 7:05:34 PM.
+     1>Project "C:\Users\Princas\Dropbox\Program\Visual Studio\AudioProcessor\AudioProcessor\AudioProcessor.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\AudioProcessor.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib /LD Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\AudioProcessor.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib /LD AssemblyInfo.cpp AudioProcessor.cpp
+         AssemblyInfo.cpp
+         AudioProcessor.cpp
+     1>AudioProcessor.cpp(17): warning C4244: 'return' : conversion from 'std::streamoff' to 'long', possible loss of data
+     1>AudioProcessor.cpp(27): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>AudioProcessor.cpp(39): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>AudioProcessor.cpp(87): warning C4244: 'argument' : conversion from 'float' to 'sf_count_t', possible loss of data
+     1>AudioProcessor.cpp(105): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>AudioProcessor.cpp(120): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>AudioProcessor.cpp(139): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>AudioProcessor.cpp(148): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>AudioProcessor.cpp(180): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>AudioProcessor.cpp(227): warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+     1>AudioProcessor.cpp(230): warning C4244: 'argument' : conversion from 'float' to 'long', possible loss of data
+     1>AudioProcessor.cpp(244): warning C4244: '*=' : conversion from 'double' to 'short', possible loss of data
+         Generating Code...
+     1>c:\users\princas\dropbox\program\visual studio\audioprocessor\audioprocessor\audioprocessor.cpp(47): warning C4715: 'WriteFloatFile' : not all control paths return a value
+     1>c:\users\princas\dropbox\program\visual studio\audioprocessor\audioprocessor\audioprocessor.cpp(128): warning C4715: 'WriteShortFile' : not all control paths return a value
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /analyze- /errorReport:prompt /LD "C:\Users\Princas\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\app.res" app.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Princas\Dropbox\Program\Visual Studio\AudioProcessor\Release\AudioProcessor.dll" /INCREMENTAL:NO /NOLOGO "C:\Users\Princas\Dropbox\Program\Visual Studio\AudioProcessor\AudioProcessor\lib\libsndfile-1.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Princas\Dropbox\Program\Visual Studio\AudioProcessor\Release\AudioProcessor.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH /DLL Release\app.res
+         Release\AssemblyInfo.obj
+         Release\AudioProcessor.obj
+         Release\Stdafx.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>AudioProcessor.obj : warning LNK4248: unresolved typeref token (01000021) for 'SNDFILE_tag'; image may not run
+         AudioProcessor.vcxproj -> C:\Users\Princas\Dropbox\Program\Visual Studio\AudioProcessor\Release\AudioProcessor.dll
+       PostBuildEvent:
+         XCOPY "C:\Users\Princas\Dropbox\Program\Visual Studio\AudioProcessor\AudioProcessor\"\lib\*.DLL "C:\Users\Princas\Dropbox\Program\Visual Studio\AudioProcessor\Release\" /D /K /Y
+         :VCEnd
+         0 File(s) copied
+     1>Done Building Project "C:\Users\Princas\Dropbox\Program\Visual Studio\AudioProcessor\AudioProcessor\AudioProcessor.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.96

@@ -1,0 +1,21 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly AudioProcessor, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class AudioProcessor.AProcessor: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CopyHeader(String, String, Int32 IsLong): PrivateScope, Public, HideBySig
+    UlawToRaw(String, String): PrivateScope, Public, HideBySig
+    UlawToShortRaw(String, String): PrivateScope, Public, HideBySig
+    RawToUlaw(String, String): PrivateScope, Public, HideBySig
+    ShortRawToUlaw(String, String): PrivateScope, Public, HideBySig
+    Amplify(String, String, Double, Int32 IsLong): PrivateScope, Public, HideBySig
+    AmplifyShort(String, String, Double, Int32 IsLong): PrivateScope, Public, HideBySig
